@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.navbar{
+    background-color: yellow;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 6px dotted brown;
+    border-radius: 5px;
+}
+#title{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+#title h1{
+    font-size: 60px;
+}
+#btnn1{
+    position: relative;
+   left: 320px;
+   width: 120px;
+   height: 40px;
+   margin-top: 27px;
+   font-size: 20px;
+   border: 2px solid purple;
+   border-radius: 15px;
+   font-weight: 800;
+   font-family: cursive;
+}
+#btnn2{
+    position: relative;
+    left: 340px;
+    width: 120px;
+    height: 40px;
+    margin-top: 27px;
+    font-size: 20px;
+    border: 2px solid purple;
+   border-radius: 15px;
+   font-weight: 800;
+   font-family: cursive;
+   
+}
+#btnn1:hover{
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    transition: 0.3s;
+
+}
+#btnn2:hover{
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    transition: 0.3s;
+
+}
+section{
+    width: 100%;
+    height: 1500px;
+    background-image: linear-gradient(#1f7f76,rgb(91, 72, 65));
+    position: absolute;
+    position: absolute;
+    
+}
+
+    
+    
+
+.container{
+    border: 2px solid black;
+    width: 65%;
+    height: 1350px;
+    margin-left: 300px;
+    margin-top: 90px;
+    box-shadow: 8px 8px 5px 5px black;
+}
+#survey-form{
+    font-size: 24px;
+}
+.first{
+    margin-left: 260px;
+    font-size: 29px;
+    margin-top: 40px;
+    padding: 10px;
+}
+.first label{
+    font-weight: 800;
+}
+.first input{
+    width: 50%;
+    height: 28px;
+    border-radius: 7px;
+}
+.drop{
+    margin-top: 25px;
+    margin-left: 260px;
+    font-size: 29px;
+
+}
+.drop p{
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.drop select{
+    width: 150px;
+    height: 40px;
+    margin-top: 8px;
+    font-size: 17px;
+}
+.dont{
+    margin-top: 25px;
+    margin-left: 260px;
+    font-size: 29px;
+
+}
+.last p{
+    font-weight: 800;
+    margin-bottom: 7px;
+}
+#secpara{
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+.dont label{
+
+    padding: 0 0 8px 8px;
+}
+.dont label input{
+    padding: 0 0 8px 8px;
+    margin: 8px;
+}
+.last{
+    margin-top: 25px;
+    margin-left: 260px;
+    font-size: 29px;
+ 
+}
+.foot{
+    margin-top: 25px;
+    margin-left: 260px;
+    font-size: 29px;
+ font-weight: 800;
+}
+.foot input{
+    width: 75%;
+    height: 250px;
+}
+.foot input::placeholder{
+    font-size: 25px;
+    
+}
+#submit{
+    width: 80%;
+    height: 40px;
+    font-size: 28px;
+    margin-left: 90px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.3s;
+}

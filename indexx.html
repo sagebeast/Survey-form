@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="indexx.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div id="title">
+            <h1>FCC SURVEY FORM</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </div>
+        <button id="btnn1">Like us</button>
+        <button id="btnn2">Share us</button>
+    </nav>
+    <section>
+        <div class="container">
+            <form id="survey-form">
+                <div class="first">
+                <label for="name" id="name-label">Name:</label>
+                <br> <input type="text" name="name" id="name" placeholder="Enter your name" required>
+
+                <br><label for="email" id="email-label">Email:</label>
+                <br> <input type="email" name="email" id="email" placeholder="Enter your email" required>
+
+                <br><label for="number" id="number-label">Age:</label>
+                <br> <input name="number" id="number" min="11" max="89" placeholder="Age" required>
+            </div>
+
+                <div class="drop">
+                    <p>What do you most like about free code camp?</p>
+                    <select id="dropdown" required>
+                        <option disabled selected value>Select an option</option>
+                        <option value="challenge">Challenges</option>
+                        <option value="project">Projects</option>
+                        <option value="community">Community</option>
+                        <option value="open source">open source</option>
+
+
+                    </select>
+                </div>
+                <div class="dont">
+                <p id="secpara">Who recommended you about the freecode camp?</p>
+                <label> <input type="radio" name="friend">Friend</label>
+                <label> <input type="radio" name="relative">Relative</label>
+                <label> <input type="radio" name="colleague">Colleague</label>
+            </div>
+                
+                <div class="last">
+                    <p id="thrdpara">What you like to see improved? </p>
+                    <label ><input type="checkbox" value="front-end projects">Front-end Projects</label>
+                    <br><label ><input type="checkbox" value="Back-end projects">Back-end Projects</label>
+                    <br> <label ><input type="checkbox" value="Data-Visulation">Data-Visulation</label>
+                    <br><label ><input type="checkbox" value="challenges">Challenges</label>
+                    <br><label ><input type="checkbox" value="open source community">Open source community</label>
+                    <br><label ><input type="checkbox" value="gitter helps room">Gitter helps room</label>
+                    <br><label ><input type="checkbox" value="videos">Videos</label>
+                    <br><label ><input type="checkbox" value="forums">Forums</label>
+                    <br><label ><input type="checkbox" value="additional courses">Additional courses</label>
+                </div>
+                <div class="foot">
+                <p class="cmmnt">Add your reviews/suggestions:-</p>
+                <input type="text" id="feedback" placeholder="Enter your feedback here...">
+            </div>
+                <br><button id="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
